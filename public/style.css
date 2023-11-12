@@ -1,0 +1,215 @@
+.navbar-toggler {
+  border: none;
+  color: white !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.slider-icon {
+  font-size: 10rem;
+  color: #686868;
+}
+.slider-icon:hover {
+  font-size: 10rem;
+  color: black;
+}
+.overlay-div {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-div:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: rgb(0, 0, 0, 0.7);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-green-hover {
+  color: #ffffff;
+}
+.text-green-hover:hover {
+  color: #39b54a;
+}
+
+.hero-image {
+  background-attachment: fixed;
+  background-image: url(images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-dark-opacity {
+  background: rgb(0, 0, 0, 0.7);
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black !important;
+  width: 0.8vw !important;
+  border-radius: 6px !important;
+  height: 1.5vh !important;
+  background-clip: unset !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.carousel-indicators .active {
+  background-color: #39b54a !important;
+}
+.bg-color-green {
+  background-color: #39b54a;
+}
+.btn-green {
+  color: #39b54a;
+}
+.font-center{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.btn-1 {
+  border: 2px solid white;
+  width: 210px;
+  height: 8vh;
+  background-color: transparent;
+}
+.btn-1:hover {
+  background-color: #ffffff;
+  color: black !important;
+}
+.slider-item {
+  opacity: 0.5;
+  height: 150px;
+}
+.slider-item:hover {
+  opacity: 1;
+}
+.btn-2{
+  border: transparent;
+  width:558px;
+  height:9vh;
+  background-color: #39b54a;
+}
+
+.conact-bg {
+  background-image: url(images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center, center;
+  padding-top: 15rem;
+  padding-bottom: 12rem;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.conact-bg-opacity-color {
+  background-color: rgb(21, 21, 21, 0.8);
+}
+.conact-bg-color {
+  background-color: rgb(21, 21, 21);
+}
+
+.input {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: #716f5f;
+  border-radius: 0;
+  padding: 18px 0;
+  color: #ffffff;
+}
+.input:focus {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: #716f5f;
+  border-radius: 0;
+  padding: 18px 0;
+  border-bottom-color: #39b54a;
+  outline: none;
+  box-shadow: none;
+  color: #ffffff;
+}
+.input::placeholder {
+  color: #716f5f;
+  opacity: 1; 
+}
+.contact-btn {
+  background-color: #39b54a;
+}
+.contact-input {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #ffffff;
+}
+.contact-input:focus {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+.contact-input::placeholder {
+  color: #716f5f;
+  opacity: 1; 
+}
+
+/* fonts heading */
+
+.heading-1-white {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  color: #ffffff;
+}
+.heading-2-white {
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  color: #ffffff;
+}
+.heading-3-white {
+  font-size: 5em;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  line-height: 1em;
+  color: #ffffff;
+}
+.heading-1-black {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif; 
+  color: black;
+}
+.heading-4-white {
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2em;
+  color: #ffffff;
+}
